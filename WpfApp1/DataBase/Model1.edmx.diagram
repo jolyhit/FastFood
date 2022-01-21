@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="777c87251f3444eca5d7d98055956cca" Name="Diagram1">
+        <EntityTypeShape EntityType="FastFoodModel.Client" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FastFoodModel.Dish" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FastFoodModel.DishCompound" Width="1.5" PointX="10.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FastFoodModel.DishStatus" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FastFoodModel.Employee" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FastFoodModel.Image" Width="1.5" PointX="5.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FastFoodModel.Ingredient" Width="1.5" PointX="8" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FastFoodModel.Order" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="FastFoodModel.OrderCompound" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="FastFoodModel.OrderStatus" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FastFoodModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FastFoodModel.Unit" Width="1.5" PointX="5.75" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="FastFoodModel.FK_Order_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="FastFoodModel.FK_DishCompound_Dish" ManuallyRouted="false" />
+        <AssociationConnector Association="FastFoodModel.FK_OrderCompound_Dish" ManuallyRouted="false" />
+        <AssociationConnector Association="FastFoodModel.FK_DishCompound_Ingredient" ManuallyRouted="false" />
+        <AssociationConnector Association="FastFoodModel.FK_OrderCompound_DishStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="FastFoodModel.FK_Order_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="FastFoodModel.FK_Ingredient_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="FastFoodModel.FK_Order_OrderStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="FastFoodModel.FK_OrderCompound_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="FastFoodModel.DishImage" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
