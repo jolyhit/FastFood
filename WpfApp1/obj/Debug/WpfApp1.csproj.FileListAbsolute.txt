@@ -19,7 +19,9 @@ C:\Users\Joly\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileI
 C:\Users\Joly\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
 C:\Users\Joly\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\Joly\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
-C:\Users\Joly\source\repos\WpfApp1\WpfApp1\obj\Debug\LoginPage.g.cs
-C:\Users\Joly\source\repos\WpfApp1\WpfApp1\obj\Debug\LoginPage.baml
-C:\Users\Joly\source\repos\WpfApp1\WpfApp1\obj\Debug\MainPage.g.cs
-C:\Users\Joly\source\repos\WpfApp1\WpfApp1\obj\Debug\MainPage.baml
+C:\Users\Joly\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\CreateDishPage.g.cs
+C:\Users\Joly\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Joly\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\Joly\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\CreateDishPage.baml
+C:\Users\Joly\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\LoginPage.baml
+C:\Users\Joly\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\MainPage.baml

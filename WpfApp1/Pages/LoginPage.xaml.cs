@@ -36,7 +36,7 @@ namespace WpfApp1
             }
             var users = connect1.Employee.Where(p => p.Phone == empPhone && p.Password == empPassword).FirstOrDefault();
             if (users != null)
-                MainFrame.Navigate(new MainPage());
+                MainFrame.Navigate(Pages.Class1.PageMain);
             else
                 MessageBox.Show("Данные введены неправильно!");
 

@@ -12,18 +12,21 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using WpfApp1.DataBase;
 namespace WpfApp1
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для CreateDishPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CreateDishPage : Page
     {
-        public MainWindow()
-        {   
+        private FastFoodEntities entities;
+        public List<Ingredient> Ingredients { get; set; }
+        public CreateDishPage()
+        {
             InitializeComponent();
-            MainFrame.Navigate(Pages.Class1.PageLogin);
-        }
+            entities = new FastFoodEntities();
+            Ingredients = entities.Ingredient.ToList();
+        }        
     }
 }

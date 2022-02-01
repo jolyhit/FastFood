@@ -62,11 +62,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="LoginPage.xaml">
+    <Page Include="Pages\CreateDishPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainPage.xaml">
+    <Page Include="Pages\LoginPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -77,6 +81,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Pages\CreateDishPage.xaml.cs">
+      <DependentUpon>CreateDishPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="DataBase\Client.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -129,10 +136,11 @@
     <Compile Include="DataBase\Unit.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="LoginPage.xaml.cs">
+    <Compile Include="Pages\Class1.cs" />
+    <Compile Include="Pages\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
+    <Compile Include="Pages\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">

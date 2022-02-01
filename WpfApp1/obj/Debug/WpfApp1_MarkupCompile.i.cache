@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Joly\source\repos\WpfApp1\WpfApp1\App.xaml
-3-1007227091
+4-1659775548
 2-1670966889
-23-637140326
+25-1217111184
 181874823231
-LoginPage.xaml;MainPage.xaml;MainWindow.xaml;
+Pages\CreateDishPage.xaml;Pages\LoginPage.xaml;Pages\MainPage.xaml;MainWindow.xaml;
 
-False
+True
 
